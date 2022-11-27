@@ -32,7 +32,7 @@ wait_for() {
       fi
       exit 0
     fi
-   sleep 1
+    sleep 1
   done
   echo "Operation timed out" >&2
   exit 1
